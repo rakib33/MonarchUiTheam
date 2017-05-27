@@ -65,6 +65,16 @@
     <Content Include="assets\helpers\responsive-elements.css" />
     <Content Include="assets\icons\fontawesome\fontawesome-webfont.woff" />
     <Content Include="assets\icons\linecons\linecons.woff" />
+    <Content Include="assets\bootstrap\css\less\alert.less" />
+    <Content Include="assets\bootstrap\css\less\badge.less" />
+    <Content Include="assets\bootstrap\css\less\breadcrumb.less" />
+    <Content Include="assets\bootstrap\css\less\button-groups.less" />
+    <Content Include="assets\bootstrap\css\less\button.less" />
+    <Content Include="assets\bootstrap\css\less\carousel.less" />
+    <Content Include="assets\bootstrap\css\less\close.less" />
+    <Content Include="assets\bootstrap\css\less\code.less" />
+    <Content Include="assets\bootstrap\css\less\component-animations.less" />
+    <Content Include="assets\bootstrap\css\less\dropdown.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -170,11 +180,21 @@
     <Content Include="assets\themes\components\default.css" />
     <Content Include="assets\widgets\accordion-ui\accordion.css" />
     <Content Include="assets\widgets\accordion-ui\accordion.js" />
+    <Content Include="assets\widgets\autocomplete\autocomplete-demo.js" />
+    <Content Include="assets\widgets\autocomplete\autocomplete.js" />
+    <Content Include="assets\widgets\autocomplete\menu.js" />
     <Content Include="assets\widgets\button\button.js" />
     <Content Include="assets\widgets\calendar\calendar-demo.js" />
     <Content Include="assets\widgets\calendar\calendar.css" />
     <Content Include="assets\widgets\calendar\calendar.js" />
     <Content Include="assets\widgets\carousel\carousel.css" />
+    <Content Include="assets\widgets\charts\chart-js\chart-bar.js" />
+    <Content Include="assets\widgets\charts\chart-js\chart-core.js" />
+    <Content Include="assets\widgets\charts\chart-js\chart-demo.js" />
+    <Content Include="assets\widgets\charts\chart-js\chart-doughnut.js" />
+    <Content Include="assets\widgets\charts\chart-js\chart-line.js" />
+    <Content Include="assets\widgets\charts\chart-js\chart-polar.js" />
+    <Content Include="assets\widgets\charts\chart-js\chart-radar.js" />
     <Content Include="assets\widgets\charts\flot\flot-demo-1.js" />
     <Content Include="assets\widgets\charts\flot\flot-pie.js" />
     <Content Include="assets\widgets\charts\flot\flot-resize.js" />
@@ -190,6 +210,7 @@
     <Content Include="assets\widgets\charts\sparklines\sparklines.js" />
     <Content Include="assets\widgets\charts\xcharts\xcharts.css" />
     <Content Include="assets\widgets\chosen\chosen.css" />
+    <Content Include="assets\widgets\collapse\chosen-demo.js" />
     <Content Include="assets\widgets\collapse\collapse.js" />
     <Content Include="assets\widgets\colorpicker\colorpicker.css" />
     <Content Include="assets\widgets\content-box\contentbox.js" />
@@ -215,13 +236,22 @@
     <Content Include="assets\widgets\ionrangeslider\ionrangeslider.css" />
     <Content Include="assets\widgets\jcrop\jcrop.css" />
     <Content Include="assets\widgets\jgrowl-notifications\jgrowl.css" />
+    <Content Include="assets\widgets\lazyload\lazyload.js" />
+    <Content Include="assets\widgets\loading-bar\loadingbar-demo.js" />
     <Content Include="assets\widgets\loading-bar\loadingbar.css" />
+    <Content Include="assets\widgets\loading-bar\loadingbar.js" />
+    <Content Include="assets\widgets\maps\gmaps\gmaps-demo.js" />
+    <Content Include="assets\widgets\maps\gmaps\gmaps.js" />
     <Content Include="assets\widgets\maps\vector-maps\vectormaps.css" />
     <Content Include="assets\widgets\markdown\markdown.css" />
+    <Content Include="assets\widgets\markdown\markdown.js" />
     <Content Include="assets\widgets\modal\modal.css" />
     <Content Include="assets\widgets\multi-select\multiselect.css" />
+    <Content Include="assets\widgets\multi-select\multiselect.js" />
     <Content Include="assets\widgets\multi-upload\fileupload.css" />
+    <Content Include="assets\widgets\nestable\nestable-demo.js" />
     <Content Include="assets\widgets\nestable\nestable.css" />
+    <Content Include="assets\widgets\nestable\nestable.js" />
     <Content Include="assets\widgets\noty-notifications\noty.css" />
     <Content Include="assets\widgets\overlay\overlay.js" />
     <Content Include="assets\widgets\owlcarousel\owlcarousel-demo.js" />
@@ -243,57 +273,81 @@
     <Content Include="assets\widgets\summernote-wysiwyg\summernote-wysiwyg.css" />
     <Content Include="assets\widgets\superclick\superclick.js" />
     <Content Include="assets\widgets\tabs-ui\tabs.css" />
+    <Content Include="assets\widgets\textarea\textarea.js" />
     <Content Include="assets\widgets\theme-switcher\themeswitcher.css" />
     <Content Include="assets\widgets\theme-switcher\themeswitcher.js" />
     <Content Include="assets\widgets\timepicker\timepicker.css" />
     <Content Include="assets\widgets\tocify\tocify.css" />
     <Content Include="assets\widgets\tooltip\tooltip.css" />
     <Content Include="assets\widgets\tooltip\tooltip.js" />
+    <Content Include="assets\widgets\touchspin\touchspin-demo.js" />
     <Content Include="assets\widgets\touchspin\touchspin.css" />
+    <Content Include="assets\widgets\touchspin\touchspin.js" />
+    <Content Include="assets\widgets\uniform\uniform-demo.js" />
     <Content Include="assets\widgets\uniform\uniform.css" />
+    <Content Include="assets\widgets\uniform\uniform.js" />
     <Content Include="assets\widgets\wizard\wizard.css" />
     <Content Include="assets\widgets\wow\wow.js" />
+    <Content Include="assets\widgets\xeditable\xeditable-demo.js" />
     <Content Include="assets\widgets\xeditable\xeditable.css" />
+    <Content Include="assets\widgets\xeditable\xeditable.js" />
     <Content Include="bs-carousel.html" />
     <Content Include="buttons.html" />
     <Content Include="calendar.html" />
     <Content Include="chart-boxes.html" />
+    <Content Include="chart-js.html" />
+    <Content Include="ckeditor.html" />
     <Content Include="collapsable.html" />
     <Content Include="content-boxes.html" />
     <Content Include="data-tables.html" />
     <Content Include="dropzone-uploader.html" />
     <Content Include="fixed-datatables.html" />
+    <Content Include="flot-charts.html" />
+    <Content Include="forms-elements.html" />
     <Content Include="forms-validation - backup.html" />
     <Content Include="forms-validation.html" />
+    <Content Include="gmaps.html" />
     <Content Include="helper-classes.html" />
     <Content Include="icons.html" />
     <Content Include="images.html" />
     <Content Include="index-alt.html" />
     <Content Include="index.html" />
+    <Content Include="inline-editor.html" />
     <Content Include="labels-badges.html" />
+    <Content Include="lazyload.html" />
+    <Content Include="loading-feedback.html" />
     <Content Include="lockscreen-3.html" />
     <Content Include="login-1.html" />
     <Content Include="login-2.html" />
     <Content Include="login-3.html" />
+    <Content Include="markdown.html" />
     <Content Include="modals.html" />
     <Content Include="MonarchUI online link.txt" />
     <Content Include="nav-menus.html" />
+    <Content Include="notifications.html" />
     <Content Include="page-transitions.html" />
     <Content Include="panel-boxes.html" />
+    <Content Include="popovers-tooltips.html" />
+    <Content Include="progress-bars.html" />
     <Content Include="response-messages.html" />
     <Content Include="responsive-datatables.html" />
     <Content Include="responsive-tables.html" />
     <Content Include="scrollbars.html" />
     <Content Include="social-boxes.html" />
+    <Content Include="sortable-elements.html" />
+    <Content Include="summernote.html" />
     <Content Include="tables.html" />
     <Content Include="tabs.html" />
     <Content Include="tile-boxes.html" />
+    <Content Include="timeline.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="assets\bootstrap\css\less\mixins\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
