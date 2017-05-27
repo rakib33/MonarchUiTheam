@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2E1A7D76-D497-4477-821D-BDADFCF34313}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MonarchUI.Project</RootNamespace>
+    <AssemblyName>MonarchUI.Project</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="advanced-datatables.html" />
+    <Content Include="animations.html" />
+    <Content Include="assets\applications\mailbox.css" />
+    <Content Include="assets\bootstrap\js\bootstrap.js" />
+    <Content Include="assets\helpers\admin-responsive.css" />
+    <Content Include="assets\helpers\responsive-elements.css" />
+    <Content Include="assets\icons\fontawesome\fontawesome-webfont.woff" />
+    <Content Include="assets\icons\linecons\linecons.woff" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\bootstrap\css\bootstrap.css" />
+    <Content Include="assets\elements\badges.css" />
+    <Content Include="assets\elements\buttons.css" />
+    <Content Include="assets\elements\content-box.css" />
+    <Content Include="assets\elements\dashboard-box.css" />
+    <Content Include="assets\elements\forms.css" />
+    <Content Include="assets\elements\images.css" />
+    <Content Include="assets\elements\info-box.css" />
+    <Content Include="assets\elements\invoice.css" />
+    <Content Include="assets\elements\loading-indicators.css" />
+    <Content Include="assets\elements\menus.css" />
+    <Content Include="assets\elements\panel-box.css" />
+    <Content Include="assets\elements\response-messages.css" />
+    <Content Include="assets\elements\responsive-tables.css" />
+    <Content Include="assets\elements\ribbon.css" />
+    <Content Include="assets\elements\social-box.css" />
+    <Content Include="assets\elements\tables.css" />
+    <Content Include="assets\elements\tile-box.css" />
+    <Content Include="assets\elements\timeline.css" />
+    <Content Include="assets\helpers\animate.css" />
+    <Content Include="assets\helpers\backgrounds.css" />
+    <Content Include="assets\helpers\boilerplate.css" />
+    <Content Include="assets\helpers\border-radius.css" />
+    <Content Include="assets\helpers\colors.css" />
+    <Content Include="assets\helpers\grid.css" />
+    <Content Include="assets\helpers\page-transitions.css" />
+    <Content Include="assets\helpers\spacing.css" />
+    <Content Include="assets\helpers\typography.css" />
+    <Content Include="assets\helpers\utils.css" />
+    <Content Include="assets\icons\fontawesome\fontawesome.css" />
+    <Content Include="assets\icons\linecons\linecons.css" />
+    <Content Include="assets\icons\spinnericon\spinnericon.css" />
+    <Content Include="assets\image-resources\blurred-bg\61454_258541100938190_1962446145_n.jpg" />
+    <Content Include="assets\image-resources\gravatar.jpg" />
+    <Content Include="assets\image-resources\logo-admin.png" />
+    <Content Include="assets\image-resources\people\testimonial1.jpg" />
+    <Content Include="assets\image-resources\people\testimonial2.jpg" />
+    <Content Include="assets\image-resources\people\testimonial3.jpg" />
+    <Content Include="assets\image-resources\people\testimonial4.jpg" />
+    <Content Include="assets\image-resources\people\testimonial5.jpg" />
+    <Content Include="assets\image-resources\people\testimonial6.jpg" />
+    <Content Include="assets\image-resources\people\testimonial7.jpg" />
+    <Content Include="assets\image-resources\people\testimonial8.jpg" />
+    <Content Include="assets\image-resources\slides-bg\slide-1.jpg" />
+    <Content Include="assets\image-resources\stock-images\img-1.jpg" />
+    <Content Include="assets\image-resources\stock-images\img-10.jpg" />
+    <Content Include="assets\image-resources\stock-images\img-11.jpg" />
+    <Content Include="assets\image-resources\stock-images\img-12.jpg" />
+    <Content Include="assets\image-resources\stock-images\img-13.jpg" />
+    <Content Include="assets\image-resources\stock-images\img-14.jpg" />
+    <Content Include="assets\image-resources\stock-images\img-15.jpg" />
+    <Content Include="assets\image-resources\stock-images\img-16.jpg" />
+    <Content Include="assets\image-resources\stock-images\img-17.jpg" />
+    <Content Include="assets\image-resources\stock-images\img-18.jpg" />
+    <Content Include="assets\image-resources\stock-images\img-19.jpg" />
+    <Content Include="assets\image-resources\stock-images\img-2.jpg" />
+    <Content Include="assets\image-resources\stock-images\img-20.jpg" />
+    <Content Include="assets\image-resources\stock-images\img-21.jpg" />
+    <Content Include="assets\image-resources\stock-images\img-22.jpg" />
+    <Content Include="assets\image-resources\stock-images\img-23.jpg" />
+    <Content Include="assets\image-resources\stock-images\img-24.jpg" />
+    <Content Include="assets\image-resources\stock-images\img-3.jpg" />
+    <Content Include="assets\image-resources\stock-images\img-4.jpg" />
+    <Content Include="assets\image-resources\stock-images\img-5.jpg" />
+    <Content Include="assets\image-resources\stock-images\img-6.jpg" />
+    <Content Include="assets\image-resources\stock-images\img-7.jpg" />
+    <Content Include="assets\image-resources\stock-images\img-8.jpg" />
+    <Content Include="assets\image-resources\stock-images\img-9.jpg" />
+    <Content Include="assets\images\icons\apple-touch-icon-114-precomposed.png" />
+    <Content Include="assets\images\icons\apple-touch-icon-144-precomposed.png" />
+    <Content Include="assets\images\icons\apple-touch-icon-57-precomposed.png" />
+    <Content Include="assets\images\icons\apple-touch-icon-72-precomposed.png" />
+    <Content Include="assets\images\icons\favicon.png" />
+    <Content Include="assets\js-core\jquery-cookie.js" />
+    <Content Include="assets\js-core\jquery-core.js" />
+    <Content Include="assets\js-core\jquery-ui-core.js" />
+    <Content Include="assets\js-core\jquery-ui-mouse.js" />
+    <Content Include="assets\js-core\jquery-ui-position.js" />
+    <Content Include="assets\js-core\jquery-ui-widget.js" />
+    <Content Include="assets\js-core\modernizr.js" />
+    <Content Include="assets\js-core\transition.js" />
+    <Content Include="assets\js-init\widgets-init.js" />
+    <Content Include="assets\snippets\chat.css" />
+    <Content Include="assets\snippets\files-box.css" />
+    <Content Include="assets\snippets\login-box.css" />
+    <Content Include="assets\snippets\mobile-navigation.css" />
+    <Content Include="assets\snippets\notification-box.css" />
+    <Content Include="assets\snippets\progress-box.css" />
+    <Content Include="assets\snippets\todo.css" />
+    <Content Include="assets\snippets\user-profile.css" />
+    <Content Include="assets\themes\admin\color-schemes\default.css" />
+    <Content Include="assets\themes\admin\layout.css" />
+    <Content Include="assets\themes\admin\layout.js" />
+    <Content Include="assets\themes\components\border-radius.css" />
+    <Content Include="assets\themes\components\default.css" />
+    <Content Include="assets\widgets\accordion-ui\accordion.css" />
+    <Content Include="assets\widgets\accordion-ui\accordion.js" />
+    <Content Include="assets\widgets\button\button.js" />
+    <Content Include="assets\widgets\calendar\calendar-demo.js" />
+    <Content Include="assets\widgets\calendar\calendar.css" />
+    <Content Include="assets\widgets\calendar\calendar.js" />
+    <Content Include="assets\widgets\carousel\carousel.css" />
+    <Content Include="assets\widgets\charts\flot\flot-demo-1.js" />
+    <Content Include="assets\widgets\charts\flot\flot-pie.js" />
+    <Content Include="assets\widgets\charts\flot\flot-resize.js" />
+    <Content Include="assets\widgets\charts\flot\flot-stack.js" />
+    <Content Include="assets\widgets\charts\flot\flot-tooltip.js" />
+    <Content Include="assets\widgets\charts\flot\flot.js" />
+    <Content Include="assets\widgets\charts\justgage\justgage.css" />
+    <Content Include="assets\widgets\charts\morris\morris.css" />
+    <Content Include="assets\widgets\charts\piegage\piegage-demo.js" />
+    <Content Include="assets\widgets\charts\piegage\piegage.css" />
+    <Content Include="assets\widgets\charts\piegage\piegage.js" />
+    <Content Include="assets\widgets\charts\sparklines\sparklines-demo.js" />
+    <Content Include="assets\widgets\charts\sparklines\sparklines.js" />
+    <Content Include="assets\widgets\charts\xcharts\xcharts.css" />
+    <Content Include="assets\widgets\chosen\chosen.css" />
+    <Content Include="assets\widgets\collapse\collapse.js" />
+    <Content Include="assets\widgets\colorpicker\colorpicker.css" />
+    <Content Include="assets\widgets\content-box\contentbox.js" />
+    <Content Include="assets\widgets\datatable\datatable.css" />
+    <Content Include="assets\widgets\datepicker-ui\datepicker.css" />
+    <Content Include="assets\widgets\datepicker\datepicker.css" />
+    <Content Include="assets\widgets\daterangepicker\daterangepicker-demo.js" />
+    <Content Include="assets\widgets\daterangepicker\daterangepicker.css" />
+    <Content Include="assets\widgets\daterangepicker\daterangepicker.js" />
+    <Content Include="assets\widgets\daterangepicker\moment.js" />
+    <Content Include="assets\widgets\dialog\dialog.css" />
+    <Content Include="assets\widgets\dropdown\dropdown.css" />
+    <Content Include="assets\widgets\dropdown\dropdown.js" />
+    <Content Include="assets\widgets\dropzone\dropzone.css" />
+    <Content Include="assets\widgets\file-input\fileinput.css" />
+    <Content Include="assets\widgets\input-switch\inputswitch-alt.css" />
+    <Content Include="assets\widgets\input-switch\inputswitch-alt.js" />
+    <Content Include="assets\widgets\input-switch\inputswitch.css" />
+    <Content Include="assets\widgets\interactions-ui\draggable.js" />
+    <Content Include="assets\widgets\interactions-ui\resizable.js" />
+    <Content Include="assets\widgets\interactions-ui\selectable.js" />
+    <Content Include="assets\widgets\interactions-ui\sortable.js" />
+    <Content Include="assets\widgets\ionrangeslider\ionrangeslider.css" />
+    <Content Include="assets\widgets\jcrop\jcrop.css" />
+    <Content Include="assets\widgets\jgrowl-notifications\jgrowl.css" />
+    <Content Include="assets\widgets\loading-bar\loadingbar.css" />
+    <Content Include="assets\widgets\maps\vector-maps\vectormaps.css" />
+    <Content Include="assets\widgets\markdown\markdown.css" />
+    <Content Include="assets\widgets\modal\modal.css" />
+    <Content Include="assets\widgets\multi-select\multiselect.css" />
+    <Content Include="assets\widgets\multi-upload\fileupload.css" />
+    <Content Include="assets\widgets\nestable\nestable.css" />
+    <Content Include="assets\widgets\noty-notifications\noty.css" />
+    <Content Include="assets\widgets\overlay\overlay.js" />
+    <Content Include="assets\widgets\owlcarousel\owlcarousel-demo.js" />
+    <Content Include="assets\widgets\owlcarousel\owlcarousel.css" />
+    <Content Include="assets\widgets\owlcarousel\owlcarousel.js" />
+    <Content Include="assets\widgets\popover\popover.css" />
+    <Content Include="assets\widgets\popover\popover.js" />
+    <Content Include="assets\widgets\pretty-photo\prettyphoto.css" />
+    <Content Include="assets\widgets\progressbar\progressbar.css" />
+    <Content Include="assets\widgets\progressbar\progressbar.js" />
+    <Content Include="assets\widgets\range-slider\rangeslider.css" />
+    <Content Include="assets\widgets\screenfull\screenfull.js" />
+    <Content Include="assets\widgets\skycons\skycons.js" />
+    <Content Include="assets\widgets\slidebars\slidebars-demo.js" />
+    <Content Include="assets\widgets\slidebars\slidebars.css" />
+    <Content Include="assets\widgets\slidebars\slidebars.js" />
+    <Content Include="assets\widgets\slider-ui\slider.css" />
+    <Content Include="assets\widgets\slimscroll\slimscroll.js" />
+    <Content Include="assets\widgets\summernote-wysiwyg\summernote-wysiwyg.css" />
+    <Content Include="assets\widgets\superclick\superclick.js" />
+    <Content Include="assets\widgets\tabs-ui\tabs.css" />
+    <Content Include="assets\widgets\theme-switcher\themeswitcher.css" />
+    <Content Include="assets\widgets\theme-switcher\themeswitcher.js" />
+    <Content Include="assets\widgets\timepicker\timepicker.css" />
+    <Content Include="assets\widgets\tocify\tocify.css" />
+    <Content Include="assets\widgets\tooltip\tooltip.css" />
+    <Content Include="assets\widgets\tooltip\tooltip.js" />
+    <Content Include="assets\widgets\touchspin\touchspin.css" />
+    <Content Include="assets\widgets\uniform\uniform.css" />
+    <Content Include="assets\widgets\wizard\wizard.css" />
+    <Content Include="assets\widgets\wow\wow.js" />
+    <Content Include="assets\widgets\xeditable\xeditable.css" />
+    <Content Include="bs-carousel.html" />
+    <Content Include="buttons.html" />
+    <Content Include="calendar.html" />
+    <Content Include="chart-boxes.html" />
+    <Content Include="collapsable.html" />
+    <Content Include="content-boxes.html" />
+    <Content Include="data-tables.html" />
+    <Content Include="dropzone-uploader.html" />
+    <Content Include="fixed-datatables.html" />
+    <Content Include="forms-validation - backup.html" />
+    <Content Include="forms-validation.html" />
+    <Content Include="helper-classes.html" />
+    <Content Include="icons.html" />
+    <Content Include="images.html" />
+    <Content Include="index-alt.html" />
+    <Content Include="index.html" />
+    <Content Include="labels-badges.html" />
+    <Content Include="lockscreen-3.html" />
+    <Content Include="login-1.html" />
+    <Content Include="login-2.html" />
+    <Content Include="login-3.html" />
+    <Content Include="modals.html" />
+    <Content Include="MonarchUI online link.txt" />
+    <Content Include="nav-menus.html" />
+    <Content Include="page-transitions.html" />
+    <Content Include="panel-boxes.html" />
+    <Content Include="response-messages.html" />
+    <Content Include="responsive-datatables.html" />
+    <Content Include="responsive-tables.html" />
+    <Content Include="scrollbars.html" />
+    <Content Include="social-boxes.html" />
+    <Content Include="tables.html" />
+    <Content Include="tabs.html" />
+    <Content Include="tile-boxes.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>13399</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:13399/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,12 @@
+D:\BOOTSTRAP ALL\MonarchUI.Project\bin\MonarchUI.Project.dll.config
+D:\BOOTSTRAP ALL\MonarchUI.Project\bin\MonarchUI.Project.dll
+D:\BOOTSTRAP ALL\MonarchUI.Project\bin\MonarchUI.Project.pdb
+D:\BOOTSTRAP ALL\MonarchUI.Project\obj\Debug\MonarchUI.Project.csprojResolveAssemblyReference.cache
+D:\BOOTSTRAP ALL\MonarchUI.Project\obj\Debug\MonarchUI.Project.dll
+D:\BOOTSTRAP ALL\MonarchUI.Project\obj\Debug\MonarchUI.Project.pdb
+D:\BOOTSTRAP ALL\MonarchTheamProject\MonarchUI.Project\bin\MonarchUI.Project.dll.config
+D:\BOOTSTRAP ALL\MonarchTheamProject\MonarchUI.Project\bin\MonarchUI.Project.dll
+D:\BOOTSTRAP ALL\MonarchTheamProject\MonarchUI.Project\bin\MonarchUI.Project.pdb
+D:\BOOTSTRAP ALL\MonarchTheamProject\MonarchUI.Project\obj\Debug\MonarchUI.Project.csprojResolveAssemblyReference.cache
+D:\BOOTSTRAP ALL\MonarchTheamProject\MonarchUI.Project\obj\Debug\MonarchUI.Project.dll
+D:\BOOTSTRAP ALL\MonarchTheamProject\MonarchUI.Project\obj\Debug\MonarchUI.Project.pdb
